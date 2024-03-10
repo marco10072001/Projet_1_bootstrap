@@ -11,13 +11,13 @@
   <body>
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg" id="navbar">
-        <div class="container">
+        <div class="container-fluid">
           <img src="photos/logotravel.PNG"><a class="navbar-brand" href="index.html" id="logo"> <span>GMC</span>Travel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
+          <div id="mynavbar">
+            <ul class="nav justify-content-end">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Accueil</a>
               </li>
@@ -25,10 +25,10 @@
                 <a class="nav-link" href="#">Destination</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Circuits</a>
+                <a class="nav-link" href="#">Circuits</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -110,6 +110,10 @@
           <div class="col-md-4 py-3 py-md-0">
             <div class="card">
               <img src="photos/Spain.png" alt="">
+              <div class="card-body">
+                <h3>china</h3>
+                <a href="#">plus d'infos</a>
+              </div>
             </div>
           </div>
 
@@ -158,17 +162,106 @@
 
 
 
-  <!--start session footer-->
+  <!--start session contact-->
 <section class="sessionfooter" id="sessionfooter">
       <div class="container"> 
         <div class="titre">
           <h2><span>C</span>ontact</h2>
         </div>
-        
+        <form>
+          <div class="form-row" style="margin-top: 30px;">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name">
+            </div>
+          </div>
+        </form>
         </div>
     </section>
-  <!-- end session footer-->
 
+
+  <!-- end session contact-->
+
+  <!-- start session footer-->
+
+  <footer class="text-center bg-body-tertiary">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="#">GMCTRAVEL</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--end session footer-->
     
 
 
